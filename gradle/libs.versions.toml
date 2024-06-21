@@ -1,1 +1,17 @@
+[versions]
+ktor = "2.3.11"
+apollo = "4.0.0-beta.8-SNAPSHOT"
+coroutines = "1.8.0"
+
 [libraries]
+apollo-runtime = { module = "com.apollographql.apollo3:apollo-runtime", version.ref = "apollo" }
+apollo-engine-tests = { module = "com.apollographql.apollo3:apollo-engine-tests", version.ref = "apollo" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test" }
+ktor-client-core = { group = "io.ktor", name= "ktor-client-core", version.ref = "ktor" }
+ktor-client-okhttp = { group = "io.ktor", name = "ktor-client-okhttp", version.ref = "ktor" }
+ktor-client-darwin = { group = "io.ktor", name = "ktor-client-darwin", version.ref = "ktor" }
+ktor-client-js = { group = "io.ktor", name = "ktor-client-js", version.ref = "ktor" }
+ktor-client-websockets = { group = "io.ktor", name = "ktor-client-websockets", version.ref = "ktor" }
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
+
