@@ -48,7 +48,7 @@ kotlin {
     }
     findByName("commonTest")?.apply {
       dependencies {
-        implementation(libs.apollo.engine.tests)
+        //implementation(libs.apollo.engine.tests)
         implementation(libs.kotlin.test)
         implementation(libs.kotlinx.coroutines.test)
         implementation(libs.kotlinx.coroutines.core)

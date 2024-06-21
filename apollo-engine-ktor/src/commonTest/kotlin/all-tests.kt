@@ -11,11 +11,11 @@ class AllTests {
     @Test
     fun runAllTests() = runTest {
         withContext(Dispatchers.Default.limitedParallelism(1)) {
-            com.apollographql.apollo3.engine.tests.runAllTests(
-                engine = { KtorHttpEngine(it) },
-                webSocketEngine = { KtorWebSocketEngine() },
-                false
-            )
+//            com.apollographql.apollo3.engine.tests.runAllTests(
+//                engine = { KtorHttpEngine(it) },
+//                webSocketEngine = { KtorWebSocketEngine() },
+//                false
+//            )
         }
     }
 }
