@@ -1,11 +1,11 @@
-import com.gradleup.librarian.core.librarianModule
+import com.gradleup.librarian.gradle.librarianModule
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 
 plugins {
   id("org.jetbrains.kotlin.multiplatform")
 }
 
-librarianModule()
+librarianModule(true)
 
 kotlin {
   jvm()
@@ -48,7 +48,7 @@ kotlin {
     }
     findByName("commonTest")?.apply {
       dependencies {
-        //implementation(libs.apollo.engine.tests)
+        implementation(libs.apollo.engine.tests)
         implementation(libs.kotlin.test)
         implementation(libs.kotlinx.coroutines.test)
         implementation(libs.kotlinx.coroutines.core)
