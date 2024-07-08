@@ -1,11 +1,11 @@
 [versions]
 ktor = "2.3.11"
-apollo = "4.0.0-beta.7"
+apollo = "4.0.0-rc.1"
 coroutines = "1.8.0"
 
 [libraries]
-apollo-runtime = { module = "com.apollographql.apollo3:apollo-runtime", version.ref = "apollo" }
-apollo-engine-tests = { module = "com.apollographql.apollo3:apollo-engine-tests", version.ref = "apollo" }
+apollo-runtime = { module = "com.apollographql.apollo:apollo-runtime", version.ref = "apollo" }
+apollo-engine-tests = { module = "com.apollographql.apollo:apollo-engine-tests", version.ref = "apollo" }
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test" }
 ktor-client-core = { group = "io.ktor", name= "ktor-client-core", version.ref = "ktor" }
 ktor-client-okhttp = { group = "io.ktor", name = "ktor-client-okhttp", version.ref = "ktor" }

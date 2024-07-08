@@ -6,20 +6,20 @@
 // - Show declarations: true
 
 // Library unique name: <com.apollographql.ktor:apollo-engine-ktor>
-final class com.apollographql.ktor.http/KtorHttpEngine : com.apollographql.apollo3.network.http/HttpEngine { // com.apollographql.ktor.http/KtorHttpEngine|null[0]
+final class com.apollographql.ktor.http/KtorHttpEngine : com.apollographql.apollo.network.http/HttpEngine { // com.apollographql.ktor.http/KtorHttpEngine|null[0]
     constructor <init>(io.ktor.client/HttpClient) // com.apollographql.ktor.http/KtorHttpEngine.<init>|<init>(io.ktor.client.HttpClient){}[0]
     constructor <init>(kotlin/Long = ...) // com.apollographql.ktor.http/KtorHttpEngine.<init>|<init>(kotlin.Long){}[0]
     constructor <init>(kotlin/Long, kotlin/Long) // com.apollographql.ktor.http/KtorHttpEngine.<init>|<init>(kotlin.Long;kotlin.Long){}[0]
     final fun close() // com.apollographql.ktor.http/KtorHttpEngine.close|close(){}[0]
-    final suspend fun execute(com.apollographql.apollo3.api.http/HttpRequest): com.apollographql.apollo3.api.http/HttpResponse // com.apollographql.ktor.http/KtorHttpEngine.execute|execute(com.apollographql.apollo3.api.http.HttpRequest){}[0]
+    final suspend fun execute(com.apollographql.apollo.api.http/HttpRequest): com.apollographql.apollo.api.http/HttpResponse // com.apollographql.ktor.http/KtorHttpEngine.execute|execute(com.apollographql.apollo.api.http.HttpRequest){}[0]
 }
-final class com.apollographql.ktor.ws/KtorWebSocketEngine : com.apollographql.apollo3.network.ws/WebSocketEngine { // com.apollographql.ktor.ws/KtorWebSocketEngine|null[0]
+final class com.apollographql.ktor.ws/KtorWebSocketEngine : com.apollographql.apollo.network.ws/WebSocketEngine { // com.apollographql.ktor.ws/KtorWebSocketEngine|null[0]
     constructor <init>() // com.apollographql.ktor.ws/KtorWebSocketEngine.<init>|<init>(){}[0]
     constructor <init>(io.ktor.client/HttpClient) // com.apollographql.ktor.ws/KtorWebSocketEngine.<init>|<init>(io.ktor.client.HttpClient){}[0]
-    final suspend fun open(kotlin/String, kotlin.collections/List<com.apollographql.apollo3.api.http/HttpHeader>): com.apollographql.apollo3.network.ws/WebSocketConnection // com.apollographql.ktor.ws/KtorWebSocketEngine.open|open(kotlin.String;kotlin.collections.List<com.apollographql.apollo3.api.http.HttpHeader>){}[0]
+    final suspend fun open(kotlin/String, kotlin.collections/List<com.apollographql.apollo.api.http/HttpHeader>): com.apollographql.apollo.network.ws/WebSocketConnection // com.apollographql.ktor.ws/KtorWebSocketEngine.open|open(kotlin.String;kotlin.collections.List<com.apollographql.apollo.api.http.HttpHeader>){}[0]
 }
-final fun (com.apollographql.apollo3/ApolloClient.Builder).com.apollographql.ktor/ktorClient(io.ktor.client/HttpClient): com.apollographql.apollo3/ApolloClient.Builder // com.apollographql.ktor/ktorClient|ktorClient@com.apollographql.apollo3.ApolloClient.Builder(io.ktor.client.HttpClient){}[0]
-final object com.apollographql.ktor.adapter/KtorHttpUrlAdapter : com.apollographql.apollo3.api/Adapter<io.ktor.http/Url> { // com.apollographql.ktor.adapter/KtorHttpUrlAdapter|null[0]
-    final fun fromJson(com.apollographql.apollo3.api.json/JsonReader, com.apollographql.apollo3.api/CustomScalarAdapters): io.ktor.http/Url // com.apollographql.ktor.adapter/KtorHttpUrlAdapter.fromJson|fromJson(com.apollographql.apollo3.api.json.JsonReader;com.apollographql.apollo3.api.CustomScalarAdapters){}[0]
-    final fun toJson(com.apollographql.apollo3.api.json/JsonWriter, com.apollographql.apollo3.api/CustomScalarAdapters, io.ktor.http/Url) // com.apollographql.ktor.adapter/KtorHttpUrlAdapter.toJson|toJson(com.apollographql.apollo3.api.json.JsonWriter;com.apollographql.apollo3.api.CustomScalarAdapters;io.ktor.http.Url){}[0]
+final fun (com.apollographql.apollo/ApolloClient.Builder).com.apollographql.ktor/ktorClient(io.ktor.client/HttpClient): com.apollographql.apollo/ApolloClient.Builder // com.apollographql.ktor/ktorClient|ktorClient@com.apollographql.apollo.ApolloClient.Builder(io.ktor.client.HttpClient){}[0]
+final object com.apollographql.ktor.adapter/KtorHttpUrlAdapter : com.apollographql.apollo.api/Adapter<io.ktor.http/Url> { // com.apollographql.ktor.adapter/KtorHttpUrlAdapter|null[0]
+    final fun fromJson(com.apollographql.apollo.api.json/JsonReader, com.apollographql.apollo.api/CustomScalarAdapters): io.ktor.http/Url // com.apollographql.ktor.adapter/KtorHttpUrlAdapter.fromJson|fromJson(com.apollographql.apollo.api.json.JsonReader;com.apollographql.apollo.api.CustomScalarAdapters){}[0]
+    final fun toJson(com.apollographql.apollo.api.json/JsonWriter, com.apollographql.apollo.api/CustomScalarAdapters, io.ktor.http/Url) // com.apollographql.ktor.adapter/KtorHttpUrlAdapter.toJson|toJson(com.apollographql.apollo.api.json.JsonWriter;com.apollographql.apollo.api.CustomScalarAdapters;io.ktor.http.Url){}[0]
 }

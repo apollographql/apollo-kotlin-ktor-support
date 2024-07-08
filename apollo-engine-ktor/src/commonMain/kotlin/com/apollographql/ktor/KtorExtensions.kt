@@ -1,6 +1,6 @@
 package com.apollographql.ktor
 
-import com.apollographql.apollo3.ApolloClient
+import com.apollographql.apollo.ApolloClient
 import com.apollographql.ktor.http.KtorHttpEngine
 import com.apollographql.ktor.ws.KtorWebSocketEngine
 import io.ktor.client.*

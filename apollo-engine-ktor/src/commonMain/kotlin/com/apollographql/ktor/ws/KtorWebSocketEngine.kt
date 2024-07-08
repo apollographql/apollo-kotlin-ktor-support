@@ -1,11 +1,11 @@
 package com.apollographql.ktor.ws
 
-import com.apollographql.apollo3.api.http.HttpHeader
-import com.apollographql.apollo3.exception.ApolloNetworkException
-import com.apollographql.apollo3.exception.ApolloWebSocketClosedException
-import com.apollographql.apollo3.network.ws.CLOSE_NORMAL
-import com.apollographql.apollo3.network.ws.WebSocketConnection
-import com.apollographql.apollo3.network.ws.WebSocketEngine
+import com.apollographql.apollo.api.http.HttpHeader
+import com.apollographql.apollo.exception.ApolloNetworkException
+import com.apollographql.apollo.exception.ApolloWebSocketClosedException
+import com.apollographql.apollo.network.ws.CLOSE_NORMAL
+import com.apollographql.apollo.network.ws.WebSocketConnection
+import com.apollographql.apollo.network.ws.WebSocketEngine
 import io.ktor.client.*
 import io.ktor.client.plugins.websocket.*
 import io.ktor.client.request.headers
