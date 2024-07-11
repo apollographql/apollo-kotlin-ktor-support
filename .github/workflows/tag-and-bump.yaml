@@ -1,4 +1,4 @@
-name: prepare-release
+name: Tag and bump
 
 on:
   workflow_dispatch:
@@ -9,12 +9,12 @@ on:
         type: string
 
 jobs:
-  prepare-release:
+  tag-and-bump:
     runs-on: macos-latest
 
     steps:
       - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 #v4.1.7
-      - uses: gradleup/librarian/prepare-release@main
+      - uses: gradleup/librarian/tag-and-bump@main
         with:
           versionToRelease: ${{ inputs.versionToRelease }}
       # Trigger a workflow manually because actions cannot trigger workflows to avoid endless loops
