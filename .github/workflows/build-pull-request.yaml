@@ -1,9 +1,9 @@
-name: check-pull-request
+name: Build pull request
 
 on: pull_request
 
 jobs:
-  check-pull-request:
+  build-pull-request:
     runs-on: macos-latest
 
     steps:
