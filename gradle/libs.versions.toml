@@ -1,5 +1,5 @@
 [versions]
-ktor = "2.3.11"
+ktor = "3.0.0"
 apollo = "4.0.1"
 coroutines = "1.8.0"
 

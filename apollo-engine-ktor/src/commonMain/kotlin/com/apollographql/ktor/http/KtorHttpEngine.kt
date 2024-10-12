@@ -80,4 +80,4 @@ class KtorHttpEngine(
   }
 }
 
-internal expect fun HttpTimeout.HttpTimeoutCapabilityConfiguration.setReadTimeout(readTimeoutMillis: Long)
+internal expect fun HttpTimeoutConfig.setReadTimeout(readTimeoutMillis: Long)
