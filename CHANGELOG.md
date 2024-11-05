@@ -1,5 +1,10 @@
 # Next version (unreleased)
 
+* Update Apollo Kotlin to 4.1.0 (#13)
+* Update Ktor to 3.0.0 (#13)
+
+Many thanks @sonatard for diving into this 💙
+
 # Version 0.0.2
 _2024-07-08_
 
