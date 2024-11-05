@@ -3,11 +3,10 @@
   <groupId>com.apollographql.ktor</groupId>
   <artifactId>apollo-engine-ktor-jvm</artifactId>
   <versioning>
-    <latest>0.1.0</latest>
-    <release>0.1.0</release>
+    <latest>0.1.1-SNAPSHOT</latest>
     <versions>
-      <version>0.1.0</version>
+      <version>0.1.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20241105144259</lastUpdated>
+    <lastUpdated>20241105144528</lastUpdated>
   </versioning>
 </metadata>
