@@ -1,8 +1,14 @@
-import com.gradleup.librarian.gradle.librarianRoot
+import com.gradleup.librarian.gradle.Librarian
 
 plugins {
-  id("org.jetbrains.kotlin.jvm").version("2.0.21").apply(false)
-  id("com.gradleup.librarian").version("0.0.4").apply(false)
+  id("base")
 }
 
-librarianRoot()
+buildscript {
+  dependencies {
+    classpath(libs.kotlin.gradle.plugin)
+    classpath(libs.librarian.gradle.plugin)
+  }
+}
+
+Librarian.root(project)

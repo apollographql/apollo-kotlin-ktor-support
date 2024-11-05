@@ -3,6 +3,7 @@ pluginManagement {
     it.apply {
       mavenCentral()
       google()
+      maven("https://storage.googleapis.com/gradleup/m2")
     }
   }
 }
