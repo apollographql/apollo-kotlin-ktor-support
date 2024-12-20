@@ -3,38 +3,38 @@
   <groupId>com.apollographql.ktor</groupId>
   <artifactId>apollo-engine-ktor-js</artifactId>
   <versioning>
-    <lastUpdated>20241105144506</lastUpdated>
+    <lastUpdated>20241220092443</lastUpdated>
     <snapshot>
-      <timestamp>20241105.144506</timestamp>
+      <timestamp>20241220.092443</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>0.1.1-20241105.144506-1</value>
-        <updated>20241105144506</updated>
+        <extension>klib</extension>
+        <value>0.1.1-20241220.092443-1</value>
+        <updated>20241220092443</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.1.1-20241105.144506-1</value>
-        <updated>20241105144506</updated>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.1.1-20241220.092443-1</value>
+        <updated>20241220092443</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.1.1-20241220.092443-1</value>
+        <updated>20241220092443</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.1-20241105.144506-1</value>
-        <updated>20241105144506</updated>
+        <value>0.1.1-20241220.092443-1</value>
+        <updated>20241220092443</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>0.1.1-20241105.144506-1</value>
-        <updated>20241105144506</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.1.1-20241105.144506-1</value>
-        <updated>20241105144506</updated>
+        <value>0.1.1-20241220.092443-1</value>
+        <updated>20241220092443</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
