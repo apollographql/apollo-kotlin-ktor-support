@@ -1,5 +1,8 @@
+@file:OptIn(ExperimentalWasmDsl::class)
+
 import com.gradleup.librarian.gradle.Librarian
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 
 plugins {
   id("org.jetbrains.kotlin.multiplatform")
@@ -23,6 +26,9 @@ kotlin {
   js(IR) {
     nodejs()
   }
+  wasmJs {
+    nodejs()
+  }
 
   sourceSets {
     @OptIn(ExperimentalKotlinGradlePluginApi::class)
@@ -34,6 +40,15 @@ kotlin {
             withJvm()
           }
           withJvm()
+          withJs()
+        }
+        group("jsCommon") {
+          group("js") {
+            withJs()
+          }
+          group("wasmJs") {
+            withWasmJs()
+          }
         }
       }
     }
