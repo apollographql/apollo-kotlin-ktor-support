@@ -1,0 +1,151 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../apollo-engine-ktor/0.1.1/apollo-engine-ktor-0.1.1.module",
+    "group": "com.apollographql.ktor",
+    "module": "apollo-engine-ktor",
+    "version": "0.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-runtime",
+          "version": {
+            "requires": "4.1.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-engine-ktor-wasm-js-0.1.1.klib",
+          "url": "apollo-engine-ktor-wasm-js-0.1.1.klib",
+          "size": 22739,
+          "sha512": "c26f3c9192bc6e3c5659f6c805627cfba5e1145232586db4491c896ddda079f66c2bbc189146659ea473b83f8a349a5627d7d0917929ef9e0d0d9e5aba339349",
+          "sha256": "6d2ae9117588df922bb71f980186732a7b211ba5c1901e1983ef891d9379134a",
+          "sha1": "d4c43f188cecf1c2ec47af0aa76d94773ca74858",
+          "md5": "d121e6bab98c06dcbd1ac39b78c3c798"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-runtime",
+          "version": {
+            "requires": "4.1.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-engine-ktor-wasm-js-0.1.1.klib",
+          "url": "apollo-engine-ktor-wasm-js-0.1.1.klib",
+          "size": 22739,
+          "sha512": "c26f3c9192bc6e3c5659f6c805627cfba5e1145232586db4491c896ddda079f66c2bbc189146659ea473b83f8a349a5627d7d0917929ef9e0d0d9e5aba339349",
+          "sha256": "6d2ae9117588df922bb71f980186732a7b211ba5c1901e1983ef891d9379134a",
+          "sha1": "d4c43f188cecf1c2ec47af0aa76d94773ca74858",
+          "md5": "d121e6bab98c06dcbd1ac39b78c3c798"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "apollo-engine-ktor-wasm-js-0.1.1-sources.jar",
+          "url": "apollo-engine-ktor-wasm-js-0.1.1-sources.jar",
+          "size": 5925,
+          "sha512": "b5bc3f31be359c668b9c996a36781739269a8107c3e6b4d31626bcef551619a4af2adeb449fcf2f4948fc2d89dbc5960654aa39e70bcd9ef087beab9122b4ab1",
+          "sha256": "2d1db958180dda4d90300ad5a1442f81a8e16af0bfd7043d79a22dc1afab25dd",
+          "sha1": "431f8b736340520d0cea0530a8acd8d8f4524705",
+          "md5": "e6dc3e30d2845ee883c56e417cb28fa0"
+        }
+      ]
+    }
+  ]
+}
