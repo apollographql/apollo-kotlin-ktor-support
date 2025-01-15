@@ -1,5 +1,8 @@
 # Next version (unreleased)
 
+# Version 0.1.1
+_2025-01-15_
+
 * Add WasmJs support (many thanks @farmerbb)
 
 # Version 0.1.0
