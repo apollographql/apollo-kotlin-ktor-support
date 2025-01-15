@@ -3,38 +3,38 @@
   <groupId>com.apollographql.ktor</groupId>
   <artifactId>apollo-engine-ktor-wasm-js</artifactId>
   <versioning>
-    <lastUpdated>20250115180515</lastUpdated>
+    <lastUpdated>20250115183046</lastUpdated>
     <snapshot>
-      <timestamp>20250115.180515</timestamp>
+      <timestamp>20250115.183046</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.1.1-20250115.180515-1</value>
-        <updated>20250115180515</updated>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>0.1.1-20250115.183046-1</value>
+        <updated>20250115183046</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.1.1-20250115.183046-1</value>
+        <updated>20250115183046</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>0.1.1-20250115.183046-1</value>
+        <updated>20250115183046</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.1-20250115.180515-1</value>
-        <updated>20250115180515</updated>
+        <value>0.1.1-20250115.183046-1</value>
+        <updated>20250115183046</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.1.1-20250115.180515-1</value>
-        <updated>20250115180515</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>0.1.1-20250115.180515-1</value>
-        <updated>20250115180515</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>javadoc</classifier>
-        <extension>jar</extension>
-        <value>0.1.1-20250115.180515-1</value>
-        <updated>20250115180515</updated>
+        <extension>pom</extension>
+        <value>0.1.1-20250115.183046-1</value>
+        <updated>20250115183046</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
