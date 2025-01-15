@@ -3,44 +3,44 @@
   <groupId>com.apollographql.ktor</groupId>
   <artifactId>apollo-engine-ktor</artifactId>
   <versioning>
-    <lastUpdated>20241220092443</lastUpdated>
+    <lastUpdated>20250115180515</lastUpdated>
     <snapshot>
-      <timestamp>20241220.092443</timestamp>
+      <timestamp>20250115.180515</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.1-20241220.092443-1</value>
-        <updated>20241220092443</updated>
+        <value>0.1.1-20250115.180515-1</value>
+        <updated>20250115180515</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1.1-20250115.180515-1</value>
+        <updated>20250115180515</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.1-20241220.092443-1</value>
-        <updated>20241220092443</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.1.1-20241220.092443-1</value>
-        <updated>20241220092443</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>0.1.1-20241220.092443-1</value>
-        <updated>20241220092443</updated>
+        <value>0.1.1-20250115.180515-1</value>
+        <updated>20250115180515</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>kotlin-tooling-metadata</classifier>
         <extension>json</extension>
-        <value>0.1.1-20241220.092443-1</value>
-        <updated>20241220092443</updated>
+        <value>0.1.1-20250115.180515-1</value>
+        <updated>20250115180515</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>0.1.1-20241220.092443-1</value>
-        <updated>20241220092443</updated>
+        <value>0.1.1-20250115.180515-1</value>
+        <updated>20250115180515</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.1.1-20250115.180515-1</value>
+        <updated>20250115180515</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
