@@ -3,44 +3,44 @@
   <groupId>com.apollographql.ktor</groupId>
   <artifactId>apollo-engine-ktor</artifactId>
   <versioning>
-    <lastUpdated>20250115183730</lastUpdated>
+    <lastUpdated>20251018130710</lastUpdated>
     <snapshot>
-      <timestamp>20250115.183730</timestamp>
+      <timestamp>20251018.130710</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.2-20251018.130710-1</value>
+        <updated>20251018130710</updated>
+      </snapshotVersion>
+      <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.2-20250115.183730-1</value>
-        <updated>20250115183730</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.1.2-20250115.183730-1</value>
-        <updated>20250115183730</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>0.1.2-20250115.183730-1</value>
-        <updated>20250115183730</updated>
+        <value>0.1.2-20251018.130710-1</value>
+        <updated>20251018130710</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>0.1.2-20250115.183730-1</value>
-        <updated>20250115183730</updated>
+        <value>0.1.2-20251018.130710-1</value>
+        <updated>20251018130710</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.1.2-20251018.130710-1</value>
+        <updated>20251018130710</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1.2-20251018.130710-1</value>
+        <updated>20251018130710</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>kotlin-tooling-metadata</classifier>
         <extension>json</extension>
-        <value>0.1.2-20250115.183730-1</value>
-        <updated>20250115183730</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.1.2-20250115.183730-1</value>
-        <updated>20250115183730</updated>
+        <value>0.1.2-20251018.130710-1</value>
+        <updated>20251018130710</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

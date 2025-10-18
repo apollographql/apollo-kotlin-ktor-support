@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.apollographql.ktor</groupId>
+  <artifactId>apollo-engine-ktor</artifactId>
+  <version>0.1.2-SNAPSHOT</version>
+  <name>apollo-engine-ktor</name>
+  <description>apollo-kotlin-ktor-support</description>
+  <url>https://github.com/apollographql/apollo-kotlin-ktor-support</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://raw.githubusercontent.com/apollographql/apollo-kotlin-ktor-support/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>apollo-kotlin-ktor-support authors</id>
+      <name>apollo-kotlin-ktor-support authors</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/apollographql/apollo-kotlin-ktor-support</connection>
+    <developerConnection>https://github.com/apollographql/apollo-kotlin-ktor-support</developerConnection>
+    <url>https://github.com/apollographql/apollo-kotlin-ktor-support</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.apollographql.ktor</groupId>
+      <artifactId>apollo-engine-ktor-jvm</artifactId>
+      <version>0.1.2-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <packaging>pom</packaging>
+</project>
