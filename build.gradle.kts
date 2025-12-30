@@ -9,6 +9,7 @@ buildscript {
     classpath(libs.kotlin.gradle.plugin)
     classpath(libs.librarian.gradle.plugin)
     classpath(libs.tapmoc)
+    classpath(libs.nmcp)
   }
 }
 
