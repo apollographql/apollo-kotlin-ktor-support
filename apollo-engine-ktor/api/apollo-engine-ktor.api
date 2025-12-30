@@ -19,6 +19,13 @@ public final class com/apollographql/ktor/http/KtorHttpEngine : com/apollographq
 	public fun execute (Lcom/apollographql/apollo/api/http/HttpRequest;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
 }
 
+public final class com/apollographql/ktor/websocket/KtorWebSocketEngine : com/apollographql/apollo/network/websocket/WebSocketEngine {
+	public fun <init> ()V
+	public fun <init> (Lio/ktor/client/HttpClient;)V
+	public fun close ()V
+	public fun newWebSocket (Ljava/lang/String;Ljava/util/List;Lcom/apollographql/apollo/network/websocket/WebSocketListener;)Lcom/apollographql/apollo/network/websocket/WebSocket;
+}
+
 public final class com/apollographql/ktor/ws/KtorWebSocketEngine : com/apollographql/apollo/network/ws/WebSocketEngine {
 	public fun <init> ()V
 	public fun <init> (Lio/ktor/client/HttpClient;)V

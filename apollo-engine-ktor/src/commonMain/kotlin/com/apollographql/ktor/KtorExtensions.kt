@@ -1,3 +1,4 @@
+@file:Suppress("DEPRECATION")
 package com.apollographql.ktor
 
 import com.apollographql.apollo.ApolloClient

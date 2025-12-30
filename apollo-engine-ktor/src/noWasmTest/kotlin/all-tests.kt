@@ -1,3 +1,4 @@
+@file:Suppress("DEPRECATION")
 import com.apollographql.apollo.annotations.ApolloInternal
 import com.apollographql.ktor.http.KtorHttpEngine
 import com.apollographql.ktor.ws.KtorWebSocketEngine
