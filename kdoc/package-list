@@ -5,4 +5,5 @@ module:apollo-engine-ktor
 com.apollographql.ktor
 com.apollographql.ktor.adapter
 com.apollographql.ktor.http
+com.apollographql.ktor.websocket
 com.apollographql.ktor.ws

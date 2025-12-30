@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.apollographql.ktor</groupId>
+  <artifactId>kdoc</artifactId>
+  <version>0.1.2-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>apollo-kotlin-ktor-support</name>
+  <description>apollo-kotlin-ktor-support</description>
+  <url>https://github.com/apollographql/apollo-kotlin-ktor-support</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>apollo-kotlin-ktor-support authors</id>
+      <name>apollo-kotlin-ktor-support authors</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/apollographql/apollo-kotlin-ktor-support</connection>
+    <developerConnection>https://github.com/apollographql/apollo-kotlin-ktor-support</developerConnection>
+    <url>https://github.com/apollographql/apollo-kotlin-ktor-support</url>
+  </scm>
+</project>
