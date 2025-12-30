@@ -53,17 +53,23 @@ kotlin {
       }
     }
 
-    dependencies {
-      implementation(kotlin("stdlib"))
-      api(libs.apollo.runtime)
-      implementation(libs.kotlinx.coroutines.core)
-      api(libs.ktor.client.core)
-      api(libs.ktor.client.websockets)
-
-      testImplementation(libs.apollo.engine.tests)
-      testImplementation(libs.kotlin.test)
-      testImplementation(libs.kotlinx.coroutines.test)
-      testImplementation(libs.kotlinx.coroutines.core)
+    commonMain {
+      dependencies {
+        implementation(kotlin("stdlib"))
+        api(libs.apollo.runtime)
+        implementation(libs.kotlinx.coroutines.core)
+        api(libs.ktor.client.core)
+        api(libs.ktor.client.websockets)
+      }
+    }
+    
+    commonTest {
+      dependencies {
+        implementation(libs.apollo.engine.tests)
+        implementation(libs.kotlin.test)
+        implementation(libs.kotlinx.coroutines.test)
+        implementation(libs.kotlinx.coroutines.core)
+      }
     }
 
     jvmMain {
