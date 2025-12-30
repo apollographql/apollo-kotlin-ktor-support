@@ -3,44 +3,44 @@
   <groupId>com.apollographql.ktor</groupId>
   <artifactId>apollo-engine-ktor-iosx64</artifactId>
   <versioning>
-    <lastUpdated>20251230160604</lastUpdated>
+    <lastUpdated>20251230161752</lastUpdated>
     <snapshot>
-      <timestamp>20251230.160604</timestamp>
+      <timestamp>20251230.161752</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>klib</extension>
-        <value>0.1.2-20251230.160604-1</value>
-        <updated>20251230160604</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>0.1.2-20251230.160604-1</value>
-        <updated>20251230160604</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.1.2-20251230.160604-1</value>
-        <updated>20251230160604</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <classifier>metadata</classifier>
         <extension>jar</extension>
-        <value>0.1.2-20251230.160604-1</value>
-        <updated>20251230160604</updated>
+        <value>0.1.2-20251230.161752-1</value>
+        <updated>20251230161752</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>0.1.2-20251230.160604-1</value>
-        <updated>20251230160604</updated>
+        <value>0.1.2-20251230.161752-1</value>
+        <updated>20251230161752</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.1.2-20251230.161752-1</value>
+        <updated>20251230161752</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.2-20251230.161752-1</value>
+        <updated>20251230161752</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>0.1.2-20251230.161752-1</value>
+        <updated>20251230161752</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.2-20251230.160604-1</value>
-        <updated>20251230160604</updated>
+        <value>0.1.2-20251230.161752-1</value>
+        <updated>20251230161752</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
