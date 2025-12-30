@@ -1,7 +1,7 @@
 [versions]
-ktor = "3.0.0"
-apollo = "4.1.0"
-coroutines = "1.8.0"
+ktor = "3.3.3"
+apollo = "5.0.0-alpha.3"
+coroutines = "1.10.2"
 
 [libraries]
 apollo-runtime = { module = "com.apollographql.apollo:apollo-runtime", version.ref = "apollo" }
@@ -14,5 +14,5 @@ ktor-client-js = { group = "io.ktor", name = "ktor-client-js", version.ref = "kt
 ktor-client-websockets = { group = "io.ktor", name = "ktor-client-websockets", version.ref = "ktor" }
 kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
 kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
-librarian-gradle-plugin = "com.gradleup.librarian:librarian-gradle-plugin:0.0.7-SNAPSHOT-b364bb8d259be655f7f741733f04eb463040e6d9"
-kotlin-gradle-plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.21"
+librarian-gradle-plugin = "com.gradleup.librarian:librarian-gradle-plugin:0.2.1"
+kotlin-gradle-plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:2.3.0"

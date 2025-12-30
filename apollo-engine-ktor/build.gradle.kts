@@ -1,4 +1,4 @@
-@file:OptIn(ExperimentalWasmDsl::class)
+@file:OptIn(ExperimentalWasmDsl::class, ExperimentalKotlinGradlePluginApi::class)
 
 import com.gradleup.librarian.gradle.Librarian
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
@@ -53,30 +53,26 @@ kotlin {
       }
     }
 
-    findByName("commonMain")?.apply {
-      dependencies {
-        api(libs.apollo.runtime)
-        implementation(libs.kotlinx.coroutines.core)
-        api(libs.ktor.client.core)
-        api(libs.ktor.client.websockets)
-      }
-    }
-    findByName("commonTest")?.apply {
-      dependencies {
-        implementation(libs.apollo.engine.tests)
-        implementation(libs.kotlin.test)
-        implementation(libs.kotlinx.coroutines.test)
-        implementation(libs.kotlinx.coroutines.core)
-      }
+    dependencies {
+      implementation(kotlin("stdlib"))
+      api(libs.apollo.runtime)
+      implementation(libs.kotlinx.coroutines.core)
+      api(libs.ktor.client.core)
+      api(libs.ktor.client.websockets)
+
+      testImplementation(libs.apollo.engine.tests)
+      testImplementation(libs.kotlin.test)
+      testImplementation(libs.kotlinx.coroutines.test)
+      testImplementation(libs.kotlinx.coroutines.core)
     }
 
-    findByName("jvmMain")?.apply {
+    jvmMain {
       dependencies {
         api(libs.ktor.client.okhttp)
       }
     }
 
-    findByName("appleMain")?.apply {
+    appleMain {
       dependencies {
         api(libs.ktor.client.darwin)
       }
