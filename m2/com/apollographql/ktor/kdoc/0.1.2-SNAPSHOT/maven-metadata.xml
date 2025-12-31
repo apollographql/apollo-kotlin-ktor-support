@@ -3,22 +3,22 @@
   <groupId>com.apollographql.ktor</groupId>
   <artifactId>kdoc</artifactId>
   <versioning>
-    <lastUpdated>20251230162155</lastUpdated>
+    <lastUpdated>20251231101323</lastUpdated>
     <snapshot>
-      <timestamp>20251230.162155</timestamp>
+      <timestamp>20251231.101323</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.1.2-20251230.162155-1</value>
-        <updated>20251230162155</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>0.1.2-20251230.162155-1</value>
-        <updated>20251230162155</updated>
+        <value>0.1.2-20251231.101323-1</value>
+        <updated>20251231101323</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.2-20251231.101323-1</value>
+        <updated>20251231101323</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
