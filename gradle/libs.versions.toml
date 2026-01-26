@@ -1,6 +1,6 @@
 [versions]
 ktor = "3.3.3"
-apollo = "5.0.0-alpha.3"
+apollo = "5.0.0-alpha.4"
 coroutines = "1.10.2"
 
 [libraries]
