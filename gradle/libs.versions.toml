@@ -17,4 +17,4 @@ kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-cor
 librarian-gradle-plugin = "com.gradleup.librarian:librarian-gradle-plugin:0.2.2-SNAPSHOT-9f44c412326c38aef286c33c83a2460aa4d34681"
 kotlin-gradle-plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:2.3.0"
 tapmoc = "com.gradleup.tapmoc:tapmoc-gradle-plugin:0.4.0"
-nmcp = "com.gradleup.nmcp:nmcp:1.4.2-SNAPSHOT-77709f6566f4737f5d2e02afb92d60abbd445d3d"
+nmcp = "com.gradleup.nmcp:nmcp:1.4.4"
