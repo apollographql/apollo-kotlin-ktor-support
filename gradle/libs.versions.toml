@@ -1,7 +1,7 @@
 [versions]
 ktor = "3.3.3"
 apollo = "5.0.0-alpha.3"
-coroutines = "1.10.2"
+coroutines = "1.11.0"
 
 [libraries]
 apollo-runtime = { module = "com.apollographql.apollo:apollo-runtime", version.ref = "apollo" }
