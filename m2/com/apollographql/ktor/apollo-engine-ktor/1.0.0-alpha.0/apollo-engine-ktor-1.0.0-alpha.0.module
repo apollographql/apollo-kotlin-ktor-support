@@ -1,0 +1,867 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.apollographql.ktor",
+    "module": "apollo-engine-ktor",
+    "version": "1.0.0-alpha.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-runtime",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-engine-ktor-metadata-1.0.0-alpha.0.jar",
+          "url": "apollo-engine-ktor-1.0.0-alpha.0.jar",
+          "size": 9808,
+          "sha512": "7d4764d93f504e278b065ea6f072e01c174c69575f4b1c702227157311c2de6c9dbe4284367e7d52c798ed2c9421392543cd6319b1ad79d6d379fdc571bbd35c",
+          "sha256": "aee3769ff4c2c0053118287698e0d7a8a6cd1cfac84f0b811cc115561ec0432a",
+          "sha1": "57bdab99622ea95cf906d10498ab78bdb2e7bd76",
+          "md5": "98efdefa818722efd486ea6bc17c508d"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "apollo-engine-ktor-kotlin-1.0.0-alpha.0-sources.jar",
+          "url": "apollo-engine-ktor-1.0.0-alpha.0-sources.jar",
+          "size": 8759,
+          "sha512": "0e6e943b9a68c34f611d587b9ac7b73ea593aa53e226389d6b95ec6b99ed0b6f928562bcffa805a5c6b982ff46ae343609be4d79accacf8b6af79294651aaa86",
+          "sha256": "ec607fb413f2da4a7c07fbb60e9a6ce57bba43ad2607f1c762609ea8d45de3aa",
+          "sha1": "c84f69b991401415e15f76e61252e58538c0114e",
+          "md5": "13575333398ae712d3c99102cafe9e3e"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-iosarm64/1.0.0-alpha.0/apollo-engine-ktor-iosarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-iosarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-iosarm64/1.0.0-alpha.0/apollo-engine-ktor-iosarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-iosarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-iosarm64/1.0.0-alpha.0/apollo-engine-ktor-iosarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-iosarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-iossimulatorarm64/1.0.0-alpha.0/apollo-engine-ktor-iossimulatorarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-iossimulatorarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-iossimulatorarm64/1.0.0-alpha.0/apollo-engine-ktor-iossimulatorarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-iossimulatorarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-iossimulatorarm64/1.0.0-alpha.0/apollo-engine-ktor-iossimulatorarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-iossimulatorarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-iosx64/1.0.0-alpha.0/apollo-engine-ktor-iosx64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-iosx64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-iosx64/1.0.0-alpha.0/apollo-engine-ktor-iosx64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-iosx64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-iosx64/1.0.0-alpha.0/apollo-engine-ktor-iosx64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-iosx64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-js/1.0.0-alpha.0/apollo-engine-ktor-js-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-js",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-js/1.0.0-alpha.0/apollo-engine-ktor-js-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-js",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-js/1.0.0-alpha.0/apollo-engine-ktor-js-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-js",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-jvm/1.0.0-alpha.0/apollo-engine-ktor-jvm-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-jvm",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-jvm/1.0.0-alpha.0/apollo-engine-ktor-jvm-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-jvm",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-jvm/1.0.0-alpha.0/apollo-engine-ktor-jvm-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-jvm",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-macosarm64/1.0.0-alpha.0/apollo-engine-ktor-macosarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-macosarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-macosarm64/1.0.0-alpha.0/apollo-engine-ktor-macosarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-macosarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-macosarm64/1.0.0-alpha.0/apollo-engine-ktor-macosarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-macosarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-macosx64/1.0.0-alpha.0/apollo-engine-ktor-macosx64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-macosx64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-macosx64/1.0.0-alpha.0/apollo-engine-ktor-macosx64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-macosx64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-macosx64/1.0.0-alpha.0/apollo-engine-ktor-macosx64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-macosx64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-tvosarm64/1.0.0-alpha.0/apollo-engine-ktor-tvosarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-tvosarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-tvosarm64/1.0.0-alpha.0/apollo-engine-ktor-tvosarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-tvosarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-tvosarm64/1.0.0-alpha.0/apollo-engine-ktor-tvosarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-tvosarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-tvossimulatorarm64/1.0.0-alpha.0/apollo-engine-ktor-tvossimulatorarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-tvossimulatorarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-tvossimulatorarm64/1.0.0-alpha.0/apollo-engine-ktor-tvossimulatorarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-tvossimulatorarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-tvossimulatorarm64/1.0.0-alpha.0/apollo-engine-ktor-tvossimulatorarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-tvossimulatorarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-tvosx64/1.0.0-alpha.0/apollo-engine-ktor-tvosx64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-tvosx64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-tvosx64/1.0.0-alpha.0/apollo-engine-ktor-tvosx64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-tvosx64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-tvosx64/1.0.0-alpha.0/apollo-engine-ktor-tvosx64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-tvosx64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-wasm-js/1.0.0-alpha.0/apollo-engine-ktor-wasm-js-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-wasm-js",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-wasm-js/1.0.0-alpha.0/apollo-engine-ktor-wasm-js-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-wasm-js",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-wasm-js/1.0.0-alpha.0/apollo-engine-ktor-wasm-js-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-wasm-js",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-watchosarm32/1.0.0-alpha.0/apollo-engine-ktor-watchosarm32-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-watchosarm32",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-watchosarm32/1.0.0-alpha.0/apollo-engine-ktor-watchosarm32-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-watchosarm32",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-watchosarm32/1.0.0-alpha.0/apollo-engine-ktor-watchosarm32-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-watchosarm32",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-watchosarm64/1.0.0-alpha.0/apollo-engine-ktor-watchosarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-watchosarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-watchosarm64/1.0.0-alpha.0/apollo-engine-ktor-watchosarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-watchosarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-watchosarm64/1.0.0-alpha.0/apollo-engine-ktor-watchosarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-watchosarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-watchosdevicearm64/1.0.0-alpha.0/apollo-engine-ktor-watchosdevicearm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-watchosdevicearm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-watchosdevicearm64/1.0.0-alpha.0/apollo-engine-ktor-watchosdevicearm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-watchosdevicearm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-watchosdevicearm64/1.0.0-alpha.0/apollo-engine-ktor-watchosdevicearm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-watchosdevicearm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-watchossimulatorarm64/1.0.0-alpha.0/apollo-engine-ktor-watchossimulatorarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-watchossimulatorarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-watchossimulatorarm64/1.0.0-alpha.0/apollo-engine-ktor-watchossimulatorarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-watchossimulatorarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../apollo-engine-ktor-watchossimulatorarm64/1.0.0-alpha.0/apollo-engine-ktor-watchossimulatorarm64-1.0.0-alpha.0.module",
+        "group": "com.apollographql.ktor",
+        "module": "apollo-engine-ktor-watchossimulatorarm64",
+        "version": "1.0.0-alpha.0"
+      }
+    }
+  ]
+}

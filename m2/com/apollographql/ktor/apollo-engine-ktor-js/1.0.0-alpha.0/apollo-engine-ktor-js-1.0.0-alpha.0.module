@@ -1,0 +1,192 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../apollo-engine-ktor/1.0.0-alpha.0/apollo-engine-ktor-1.0.0-alpha.0.module",
+    "group": "com.apollographql.ktor",
+    "module": "apollo-engine-ktor",
+    "version": "1.0.0-alpha.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-runtime",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets",
+          "version": {
+            "requires": "3.3.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-engine-ktor-js-1.0.0-alpha.0.klib",
+          "url": "apollo-engine-ktor-js-1.0.0-alpha.0.klib",
+          "size": 26279,
+          "sha512": "e35877d7d4dd7133b403888b44aee8c6455bddbf0923a7dda0da15992db2e26d3a87381ff29792d3919d670c407b084e7137272837092a5f805e632aa2882de7",
+          "sha256": "c32a2f4966243f0d4621af2dd2891f0334333fdbd424b24f388131d1ce36944b",
+          "sha1": "0fb01071a592c5fee74fa318e5fae49652ac16ae",
+          "md5": "9f07e8a22c3f5df127eb6606e13f430b"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.apollographql.apollo",
+          "module": "apollo-runtime",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-websockets",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "apollo-engine-ktor-js-1.0.0-alpha.0.klib",
+          "url": "apollo-engine-ktor-js-1.0.0-alpha.0.klib",
+          "size": 26279,
+          "sha512": "e35877d7d4dd7133b403888b44aee8c6455bddbf0923a7dda0da15992db2e26d3a87381ff29792d3919d670c407b084e7137272837092a5f805e632aa2882de7",
+          "sha256": "c32a2f4966243f0d4621af2dd2891f0334333fdbd424b24f388131d1ce36944b",
+          "sha1": "0fb01071a592c5fee74fa318e5fae49652ac16ae",
+          "md5": "9f07e8a22c3f5df127eb6606e13f430b"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "apollo-engine-ktor-js-1.0.0-alpha.0-sources.jar",
+          "url": "apollo-engine-ktor-js-1.0.0-alpha.0-sources.jar",
+          "size": 7717,
+          "sha512": "a057c42966d288f437199db8b780e8fdb9735c19978838abb7b38dba3c948d61e4945dd032ad089575fbbfc690f2ff87cfb3cf26dd6721cf7b82d59f7f6f4400",
+          "sha256": "2f4a365c57842eb3c46a160a41441c99b52b44906440cafc5ced9f6f5c818647",
+          "sha1": "e44f5118c5fb8970bc91c15cde7a5c4df586f829",
+          "md5": "bcf1dd91b9acf598f3bf7d5b29505fed"
+        }
+      ]
+    }
+  ]
+}
