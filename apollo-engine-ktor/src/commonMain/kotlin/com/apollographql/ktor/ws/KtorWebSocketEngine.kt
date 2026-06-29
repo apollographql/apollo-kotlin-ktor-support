@@ -1,3 +1,4 @@
+@file:Suppress("DEPRECATION")
 package com.apollographql.ktor.ws
 
 import com.apollographql.apollo.api.http.HttpHeader
@@ -17,6 +18,7 @@ import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.channels.ReceiveChannel
 import okio.ByteString
 
+@Deprecated("The websocket implementation has moved to 'com.apollographql.apollo.network.websocket'. See https://go.apollo.dev/ak-v5-websockets for more details.")
 class KtorWebSocketEngine(
     private val client: HttpClient,
 ) : WebSocketEngine {
