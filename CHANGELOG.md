@@ -1,5 +1,16 @@
 # Next version (unreleased)
 
+# Version 1.0.0-alpha.0
+
+_2026-06-29_
+
+Bump a bunch of dependencies and add a new KMP target. Many thanks @MatthewFolbigg for the contribution!
+
+All changes:
+* Update Gradle and dependencies (#40)
+* Add watchosDeviceArm64 (#27)
+* Add support for Apollo Kotlin 5 (#29)
+
 # Version 0.1.1
 _2025-01-15_
 
