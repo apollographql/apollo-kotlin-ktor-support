@@ -1,7 +1,7 @@
 [versions]
 ktor = "3.3.3"
-apollo = "5.0.0-alpha.3"
-coroutines = "1.10.2"
+apollo = "5.0.1"
+coroutines = "1.11.0"
 
 [libraries]
 apollo-runtime = { module = "com.apollographql.apollo:apollo-runtime", version.ref = "apollo" }
@@ -15,6 +15,6 @@ ktor-client-websockets = { group = "io.ktor", name = "ktor-client-websockets", v
 kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
 kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
 librarian-gradle-plugin = "com.gradleup.librarian:librarian-gradle-plugin:0.2.2-SNAPSHOT-9f44c412326c38aef286c33c83a2460aa4d34681"
-kotlin-gradle-plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:2.3.0"
-tapmoc = "com.gradleup.tapmoc:tapmoc-gradle-plugin:0.4.0"
-nmcp = "com.gradleup.nmcp:nmcp:1.4.2-SNAPSHOT-77709f6566f4737f5d2e02afb92d60abbd445d3d"
+kotlin-gradle-plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:2.4.0"
+tapmoc = "com.gradleup.tapmoc:tapmoc-gradle-plugin:0.4.2"
+nmcp = "com.gradleup.nmcp:nmcp:1.6.0"
