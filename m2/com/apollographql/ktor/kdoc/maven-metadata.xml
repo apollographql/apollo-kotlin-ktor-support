@@ -3,11 +3,10 @@
   <groupId>com.apollographql.ktor</groupId>
   <artifactId>kdoc</artifactId>
   <versioning>
-    <latest>1.0.0-alpha.0</latest>
-    <release>1.0.0-alpha.0</release>
+    <latest>1.0.0-alpha.1-SNAPSHOT</latest>
     <versions>
-      <version>1.0.0-alpha.0</version>
+      <version>1.0.0-alpha.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20260629140338</lastUpdated>
+    <lastUpdated>20260629141553</lastUpdated>
   </versioning>
 </metadata>
