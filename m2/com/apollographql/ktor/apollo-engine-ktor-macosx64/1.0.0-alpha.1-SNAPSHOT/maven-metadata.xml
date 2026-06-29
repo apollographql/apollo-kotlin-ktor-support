@@ -3,44 +3,44 @@
   <groupId>com.apollographql.ktor</groupId>
   <artifactId>apollo-engine-ktor-macosx64</artifactId>
   <versioning>
-    <lastUpdated>20260629141338</lastUpdated>
+    <lastUpdated>20260629183033</lastUpdated>
     <snapshot>
-      <timestamp>20260629.141338</timestamp>
+      <timestamp>20260629.183033</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>klib</extension>
-        <value>1.0.0-alpha.1-20260629.141338-1</value>
-        <updated>20260629141338</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <classifier>metadata</classifier>
         <extension>jar</extension>
-        <value>1.0.0-alpha.1-20260629.141338-1</value>
-        <updated>20260629141338</updated>
+        <value>1.0.0-alpha.1-20260629.183033-1</value>
+        <updated>20260629183033</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>1.0.0-alpha.1-20260629.183033-1</value>
+        <updated>20260629183033</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.0.0-alpha.1-20260629.183033-1</value>
+        <updated>20260629183033</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.0.0-alpha.1-20260629.141338-1</value>
-        <updated>20260629141338</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.0.0-alpha.1-20260629.141338-1</value>
-        <updated>20260629141338</updated>
+        <value>1.0.0-alpha.1-20260629.183033-1</value>
+        <updated>20260629183033</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.0-alpha.1-20260629.141338-1</value>
-        <updated>20260629141338</updated>
+        <value>1.0.0-alpha.1-20260629.183033-1</value>
+        <updated>20260629183033</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.0.0-alpha.1-20260629.141338-1</value>
-        <updated>20260629141338</updated>
+        <extension>pom</extension>
+        <value>1.0.0-alpha.1-20260629.183033-1</value>
+        <updated>20260629183033</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
