@@ -15,6 +15,6 @@ ktor-client-websockets = { group = "io.ktor", name = "ktor-client-websockets", v
 kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
 kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
 librarian-gradle-plugin = "com.gradleup.librarian:librarian-gradle-plugin:0.2.2-SNAPSHOT-28e0ecde1aebd3f17f838e056afd44eddbce2544"
-kotlin-gradle-plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:2.4.0"
+kotlin-gradle-plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:2.4.10"
 tapmoc = "com.gradleup.tapmoc:tapmoc-gradle-plugin:0.4.2"
 nmcp = "com.gradleup.nmcp:nmcp:1.6.0"
